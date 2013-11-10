@@ -9,7 +9,7 @@ title: This Is Going To Be FEPIC
 
 And that's how I feel today.
 
-Two short weeks ago I [publicly announced](http://blog.finette.com/2013/10/29/a-personal-update/) my departure from Mozilla. I've been with Mozilla for five years, I had an amazing time there, I am incredibly blessed to have had the chance to work with some of the smartest people in the industry and on projects which where just wicked fun. And over those five years I did a lot of introspection – which led me to realize that I am happiest when I can operate in the triangle between entrepreneurship, technology and global impact. Heck, I even [drew a Venn diagram](https://speakerdeck.com/pfinette/mozilla-for-entrepreneurs?slide=4) for one of the presentations I give regularly.
+Two short weeks ago I [publicly announced](http://blog.finette.com/2013/10/29/a-personal-update/) my departure from Mozilla. I've been with Mozilla for five years, I had an amazing time there, I am incredibly blessed to have had the chance to work with some of the smartest people in the industry and on projects which were just wicked fun. And over those five years I did a lot of introspection – which led me to realize that I am happiest when I can operate in the triangle between entrepreneurship, technology and global impact. Heck, I even [drew a Venn diagram](https://speakerdeck.com/pfinette/mozilla-for-entrepreneurs?slide=4) for one of the presentations I give regularly.
 
 Through my work with the [Unreasonable Institute](http://unreasonableinstitute.org/), [Unreasonable at Sea](http://unreasonableatsea.com/), [Mentor for Good](http://mentorforgood.org/) and many, many interactions I had with people in the global impact space it became clear that this is what I _need_ to do next.
 
