@@ -9,7 +9,7 @@ permalink: /:year/:month/:day/:title
 lsi: false
 
 encoding: UTF-8
-limit-posts: 0
+paginate: 0
 
 exclude:
 - CNAME
