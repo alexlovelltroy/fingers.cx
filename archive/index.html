@@ -28,6 +28,9 @@ title: Archive
 					<li><i class="icon-angle-right"></i> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> {% if post.featured.size > 0 %}<i class="icon-star"></i><span class="featured">featured</span>{% endif %} <small>({{ post.date | date_to_string}})</small><span class="category">{{ post.tags }}</span></li>
 				{% endfor %}
 				</ul>
+				{% if paginator.next_page %}
+					<a href="{{ site.url }}/page{{ paginator.next_page }}">&larr; More</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
