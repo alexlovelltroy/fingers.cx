@@ -24,7 +24,7 @@ title: Archive
 		<div class="large-9 columns">
 			<div id="archive-list">
 				<ul class="archiveItems list">
-				{% for post in site.posts limit:100 %}
+				{% for post in site.posts limit:200 %}
 					<li><i class="icon-angle-right"></i> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> {% if post.featured.size > 0 %}<i class="icon-star"></i><span class="featured">featured</span>{% endif %} <small>({{ post.date | date_to_string}})</small><span class="category">{{ post.tags }}</span></li>
 				{% endfor %}
 				</ul>
