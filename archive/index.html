@@ -24,15 +24,15 @@ title: Archive
 		<div class="large-9 columns">
 			<div id="archive-list">
 				<ul class="archiveItems list">
-				{% for post in site.posts limit:200 %}
+				{% for post in paginator.posts %}
 					<li><i class="icon-angle-right"></i> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> {% if post.featured.size > 0 %}<i class="icon-star"></i><span class="featured">featured</span>{% endif %} <small>({{ post.date | date_to_string}})</small><span class="category">{{ post.tags }}</span></li>
 				{% endfor %}
 				</ul>
-				{% if post.next %}
-					<a href="{{ post.next.url }}/">&larr; View newer posts</a>
+				{% if paginator.next_page %}
+					<a href="{{ site.url }}/page{{paginator.next_page}}">&larr; View newer posts</a>
 				{% endif %}
-				{% if post.previous %}
-					<a href="{{ post.previous.url }}/">&larr; View older posts</a>
+				{% if paginator.previous_page %}
+					<a href="{{ site.url }}/page{{paginator.previous_page}}">&larr; View older posts</a>
 				{% endif %}
 			</div>
 		</div>

@@ -8,6 +8,7 @@ markdown: rdiscount
 
 permalink: /:year/:month/:day/:title
 lsi: false
+paginate: 100
 
 exclude:
 - CNAME
