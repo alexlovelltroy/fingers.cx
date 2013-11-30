@@ -23,17 +23,11 @@ title: Archive
 		</div>
 		<div class="large-9 columns">
 			<div id="archive-list">
-				<ul class="archiveItems list">
+				<ul class="archiveItems">
 				{% for post in site.posts %}
 					<li><i class="icon-angle-right"></i> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> {% if post.featured.size > 0 %}<i class="icon-star"></i><span class="featured">featured</span>{% endif %} <small>({{ post.date | date_to_string}})</small><span class="category">{{ post.tags }}</span></li>
 				{% endfor %}
 				</ul>
-				{% if site.posts.next %}
-					<a href="{{ post.next.url }}/">&larr; View newer posts</a>
-				{% endif %}
-				{% if site.posts.previous %}
-					<a href="{{ post.previous.url }}/">&larr; View older posts</a>
-				{% endif %}
 			</div>
 		</div>
 	</div>
