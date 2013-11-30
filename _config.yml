@@ -1,11 +1,12 @@
+encoding: UTF-8
+timezone: America/Los_Angeles
+
 name: The Heretic
 description: An opinionated Newsletter by Pascal Finette
 url: http://theheretic.me
 baseurl: /
-encoding: UTF-8
 
 markdown: rdiscount
-
 permalink: /:year/:month/:day/:title
 lsi: false
 
