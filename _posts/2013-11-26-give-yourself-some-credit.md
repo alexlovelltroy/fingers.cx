@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: rainmaking
-featured: 
+featured: Y
 date: 2013-11-26 17:09:00
 title: Give Yourself Some Credit
 ---

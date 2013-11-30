@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: rainmaking
-featured: 
+featured: Y
 date: 2013-11-13 15:38:00
 title: Excellence Takes Practice
 ---

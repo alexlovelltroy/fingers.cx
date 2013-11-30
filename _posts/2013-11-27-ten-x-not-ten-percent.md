@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: strategy
-featured: 
+featured: Y
 date: 2013-11-27 13:58:00
 title: 10X not 10%
 ---

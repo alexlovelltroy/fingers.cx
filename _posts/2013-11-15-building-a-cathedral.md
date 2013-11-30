@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: rainmaking
-featured: 
+featured: Y
 date: 2013-11-15 15:11:00
 title: Building A Cathedral
 ---
