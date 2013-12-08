@@ -1,0 +1,113 @@
+---
+layout: default
+title: The Heretic Network
+network:
+ - name: Adam Scheuring
+   about: Engineer solving complex problems with technology. Smart sensors, Bluetooth LE, HW prototyping. I'm building my wearable tech startup.
+   link: 
+   email: adam.scheuring@gmail.com
+ - name: Alban Denoyel
+   about: Can help with fundraising, bizdev, marketing, intros, and the 3D industry.
+   link: http://sketchfab.com/
+   email: alban@sketchfab.com
+ - name: Anna Wolfe
+   about: I'm most passionate about music and have spent the past 3 years researching digital distribution, online marketing and the production process.
+   link: http://annawolfe.net/
+   email: aewolfe91@gmail.com
+ - name: Elio Qoshi
+   about: Visual Identity and Graphic Design, expressing ideas visually, visual metaphors. Also a hobby game developer and Retro Video Gamer.
+   link: http://www.elioqoshi.com/
+   email: helios@elioqoshi.com
+ - name: Kevin Miller
+   about: If you have something important to say but can't find the right words, I've been lucky to do TEDx's in spanish & english on embracing fear & empathy.
+   link: http://superheroexperiments.com/
+   email: heykevinm@gmail.com
+ - name: Janse Romero Borçari
+   about: IBM MAXIMO Consuntant, Asset management knowlendge. Java development.
+   link: http://janseromero.blogspot.com/
+   email: janseromero@gmail.com
+ - name: Jarg Temme
+   about: Founder of deal united and KRYD, Coach and Mentor for few startups, Expert in CRM, Product Development and Ecommerce.
+   link: 
+   email: jarg@crosstab.de
+ - name: Jeremy Higgs
+   about: I love building social businesses! I currently work to provide clean energy to off-grid communities in Pakistan through EcoEnergyFinance.
+   link: http://www.ecoenergyfinance.org/
+   email: jeremy.higgs@gmail.com
+ - name: Juan Vazquez
+   about: I'm a  product manager who can do user experience and code some frontend.
+   link: 
+   email: Juanjovazpar@gmail.com
+ - name: Liu Liu
+   about: UX Design, Interaction Design
+   link: http://auxdesigner.com/
+   email: liuliuweb@gmail.com
+ - name: Peter Buchroithner
+   about: Fashion from retail stores and e-commerce to B2B Distribution, production; Social Media Marketing, Advertising.
+   link: http://www.troutloud.com/
+   email: peter@buchroithner.com
+ - name: Peter Day
+   about: My expertise is tech support. I'm trained in talking to users, finding pain points of the product and fixing them.
+   link: 
+   email: Peter.day4@gmail.com
+ - name: Pierre-Antoine Passet
+   about: How I can help - Backend development (esp. Django, Python), infrastructure an all things web-dev.
+   link: http://sketchfab.com/
+   email: pa.passet@gmail.com
+ - name: Ryan Merkley
+   about: Best in a hot mess or teetering disaster. Org and product strategy, comms and marketing -- crisis or other. Expect brutal truth, then we dig in.
+   link: http://ryanmerkley.tumblr.com/
+   email: ryan@merkley.ca
+ - name: Scott Jenson
+   about: UX design and strategy, focusing on mobile and smart devices.
+   link: http://www.jenson.org/
+   email: scott@jenson.org
+ - name: Teresa Maria Zimmermann
+   about: Creating Brands, Finetuning Brands, Marketing Brands, Selling Brands. All areas of international Entertainment and Lifestyle.
+   link: http://www.thesmallgatsby.com/
+   email: teresa.maria@thesmallgatsby.com
+ - name: Wout Laban
+   about: Storytelling/branding - Every brand/company/person has a story, I love finding the essence of a story and help you with a strategy and visualisation of yours.
+   link: http://www.centralparkoffice.com/
+   email: woutlaban@icloud.com
+ - name: Zach Machuca
+   about: I have just recently begun creating a game-changing 3D Printing service. I would love to connect with others in this industry.
+   link: 
+   email: Zachmachuca@gmail.com
+---
+<div id="headerNetwork" class="hide-for-small">
+</div> <!-- /headerAbout -->
+
+<div id="generic">
+	<div class="row">
+		<div class="large-3 columns">
+			<h3>ABOUT</h3>
+		</div>
+		<div class="large-9 columns">
+			<p>The Heretic Network is a group of fellow Heretics who kindly offered their time and expertise to help you on your own journey. It all started with <a href="http://theheretic.me/2013/12/08/the-heretic-network/">this post</a>. It's us paying it forward.</p>
+			<p>Feel free to reach out to them – and please don't forget: These wonderful folks are doing this out of gratitude – treat them like the messiah.</p>
+			<p>And <a href="mailto:hello@theheretic.me">email me</a> when something cool came out of a collaboration, when you want to offer your own expertise to fellow Heretics or when you just want to say Hi.</p>
+			<p>With deep admiration,<br>Pascal</p>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-3 columns">
+			<h3>THE NETWORK</h3>
+		</div>
+		<div class="large-9 columns">
+			<ul class="large-block-grid-3">
+			{% for node in page.network %}
+				<li>
+					<div class="panel">
+	  				<h5>{{ node.name }}</h5>
+	  				<p>{{ node.about }}</p>
+	  				<p>{% if node.link != null %}<a href="{{ node.link }}">more</a> | {% endif %}<a href="mailto:{{ node.email }}">contact</a></p>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div> <!-- /generic -->

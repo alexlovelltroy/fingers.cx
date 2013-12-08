@@ -17,7 +17,7 @@
 @import "foundation/components/global"; // *always required
 @import "foundation/components/grid";
 @import "foundation/components/visibility";
-// @import "foundation/components/block-grid";
+@import "foundation/components/block-grid";
 @import "foundation/components/type";
 @import "foundation/components/buttons";
 @import "foundation/components/forms"; // *requires components/buttons
@@ -38,7 +38,7 @@
 @import "foundation/components/labels";
 // @import "foundation/components/inline-lists";
 // @import "foundation/components/pagination";
-// @import "foundation/components/panels";
+@import "foundation/components/panels";
 // @import "foundation/components/pricing-tables";
 // @import "foundation/components/progress-bars";
 // @import "foundation/components/side-nav";
@@ -131,6 +131,8 @@ a:hover.button { text-decoration: none; }
 
 #headerAbout { @include headerImg("../img/header-about.jpg", 600px); }
 
+#headerNetwork { @include headerImg("../img/header-network.jpg", 600px); }
+
 #headerDisclaimer { @include headerImg("../img/header-disclaimer.jpg", 600px); }
 
 #pullout p {
@@ -200,6 +202,11 @@ a:hover.button { text-decoration: none; }
 	h3 { @include verticalStrip($blue); }
 	p:first-child { margin-top: 0.75em; }
 	p:last-child { margin-bottom: 0; }
+}
+
+.panel p {
+	font-size: 75%;
+	margin-bottom: 0;
 }
 
 #footer {
