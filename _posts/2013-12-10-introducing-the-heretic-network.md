@@ -7,7 +7,7 @@ title: Introducing The Heretic Network
 ---
 On Sunday I [asked](http://theheretic.me/2013/12/08/the-heretic-network/), on a whim, if any of our fellow Heretic tribe members would like to pay it forward and offer their expertise to our little community.
 
-Little did I know how **awesome** you all are! 57 (fifty-seven) of you emailed me and said: "I'm in!".
+Little did I know how **awesome** you all are! <del>57 (fifty-seven)</del> 64 (sixty-four) of you emailed me and said: "I'm in!".
 
 Without much further ado I introduce to you:
 
