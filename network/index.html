@@ -713,18 +713,24 @@ network:
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="network">
 		<div class="large-3 columns">
 			<h3>THE NETWORK</h3>
+         <p>
+         Sort by:<br />
+         <button class="tiny radius sort" data-sort="name">Name</button>
+         <button class="tiny radius sort" data-sort="tag">Tag</button>
+         <button class="tiny radius sort" data-sort="country">Country</button>
+         </p>
 		</div>
 		<div class="large-9 columns">
-			<ul class="large-block-grid-3">
+			<ul class="large-block-grid-3 list">
 			{% for node in page.network %}
 				<li>
 					<div class="panel">
-	  				<h5>{{ node.name }}</h5>
-	  				{% if node.tag != 'ZZZ' %}<p><em>#{{ node.tag }}</em></p>{% endif %}
-               {% if node.country != 'ZZZ' %}<p><em>@{% if node.location != null %}{{ node.location }}, {% endif %}{{ node.country }}</em></p>{% endif %}
+	  				<h5 class="name">{{ node.name }}</h5>
+	  				<p class="tag" {% if node.tag == 'ZZZ' %}style="display: none;"{% endif %}><em>#{{ node.tag }}</em></p>
+               <p {% if node.country == 'ZZZ' %}style="display: none;"{% endif %}><em>@{% if node.location != null %}{{ node.location }}, {% endif %}<span class="country">{{ node.country }}</span></em></p>
 	  				<hr />
 	  				<p>{{ node.about }}</p>
 	  				<p>{% if node.link != null %}<a href="{{ node.link }}">more</a> | {% endif %}<a href="mailto:{{ node.email }}">contact</a></p>
@@ -735,3 +741,15 @@ network:
 		</div>
 	</div>
 </div> <!-- /generic -->
+
+<!-- list.js -->
+<script src="{{ site.baseurl }}js/list.min.js"></script>
+<script type="text/javascript">
+var options = {
+   valueNames: [ 'name', 'tag', 'country' ],
+   page: 500
+};
+
+var networkList = new List('network', options);
+</script>
+<!-- /list.js -->
