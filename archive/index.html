@@ -36,7 +36,10 @@ title: Archive
 <!-- list.js -->
 <script src="{{ site.baseurl }}js/list.min.js"></script>
 <script type="text/javascript">
-var options = { valueNames: [ 'category', 'featured' ] };
+var options = {
+	valueNames: [ 'category', 'featured' ],
+	page: 1000
+};
 var archiveList = new List('archive-list', options);
 
 function filter($tag) {
