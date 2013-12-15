@@ -607,6 +607,7 @@ network:
 					<div class="panel">
 	  				<h5>{{ node.name }}</h5>
 	  				<p>{{ node.about }}</p>
+	  				<p>{% if node.tag != null %}#{{ node.tag }} | {% endif %}{% if node.location != null %}@{{ node.location }}{% endif %}</p>
 	  				<p>{% if node.link != null %}<a href="{{ node.link }}">more</a> | {% endif %}<a href="mailto:{{ node.email }}">contact</a></p>
 					</div>
 				</li>
