@@ -19,14 +19,14 @@ Furthermore, we tend to confuse purpose with vision, goals and legacy. Those are
 
 If you are on your search for purpose, here are a few things to try whilst on your journey:
   
-1. Find a pattern. 
+(1) Find a pattern. 
 It might surprise you to know you have already been living your purpose your whole life. It most likely started when you were a kid in the playground, it followed you to college, it was there in your first job, it's there's right now. Who were you being back then, and who are you being now? The helper? The warrior? The one that inspires? The one that truly sees? 
 Take some time to observe the patterns of your behavior. Think about who are you at home as well as at work. Often we only think in career terms, but you are creating impact with your purpose everywhere.
 
-2. Take the [Strength Finder](http://strengths.gallup.com/) test. 
+(2) Take the [Strength Finder](http://strengths.gallup.com/) test. 
 This test is one of the best out there. I have used it dozens of times with my staff, clients and I've even given to friends. The test focuses on identifying your natural strengths as your most valuable assest. In my humble opinion, it has never been wrong. It allows one to truly understand one's key strengths, and the sum of this can nudge you toward uncovering your purpose.  
 
-3. Ask someone! 
+(3) Ask someone! 
 Seems simple, and it is. Since becoming a coach, if I had a dollar for every-time some told me I'm clearly a coach, I'd be a wealthy woman by now. As mentioned above, my trouble was not asking who am I being? Others can see you better than you can see yourself. Ask them. Also ask people you've just met, after only 10 minutes they can tell you too. You see, you can't help but be yourself, you are always being you.
 
 Believe me, you have been living your reason for being every day of your life. Just ask yourself - who do you be? And be happy!
