@@ -27,7 +27,7 @@ Take some time to observe the patterns of your behavior. Think about who are you
 
 **(2) Take the [Strength Finder](http://strengths.gallup.com/) test.**
 
-This test is one of the best out there. I have used it dozens of times with my staff, clients and I've even given to friends. The test focuses on identifying your natural strengths as your most valuable assest. In my humble opinion, it has never been wrong. It allows one to truly understand one's key strengths, and the sum of this can nudge you toward uncovering your purpose.
+This test is one of the best out there. I have used it dozens of times with my staff, clients and I've even given to friends. The test focuses on identifying your natural strengths as your most valuable assets. In my humble opinion, it has never been wrong. It allows one to truly understand one's key strengths, and the sum of this can nudge you toward uncovering your purpose.
 
 **(3) Ask someone!**
 
