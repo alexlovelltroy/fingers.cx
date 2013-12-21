@@ -5,7 +5,7 @@ featured:
 date: 2013-12-20 18:35:00
 title: Finding Your Purpose
 ---
-_The following guest post is from my wonderful wife and fellow Heretic [Jane Finette](http://janefinette.com/), an executive coach with a deep passion for helping people find and be their brilliance._
+*The following guest post is from my wonderful wife and fellow Heretic [Jane Finette](http://janefinette.com/), an executive coach with a deep passion for helping people find and be their brilliance.*
 
 Until very recently my life purpose was an illusive, shy beast that I was starting to question even existed. You see I'd been on a search on and off for at least 6 years, and even with an extended sabbatical to find 'the' answer - it refused to show itself. The harder I looked, the more I read, the more I contemplated, the further away it ran from me. 
 
