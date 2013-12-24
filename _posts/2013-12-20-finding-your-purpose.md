@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: leadership
-featured: 
+featured: Y
 date: 2013-12-20 18:35:00
 title: Finding Your Purpose
 ---
