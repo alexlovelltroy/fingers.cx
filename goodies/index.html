@@ -1,0 +1,44 @@
+---
+layout: default
+title: The Heretic's Goodie Bag
+goodies:
+ - title: Adam Scheuring
+   text: Engineer solving complex problems with technology. Smart sensors, Bluetooth LE, HW prototyping. I'm building my wearable tech startup.
+---
+<div id="headerGoodies" class="hide-for-small">
+</div> <!-- /headerGoodies -->
+
+<div id="generic">
+	<div class="row">
+		<div class="large-3 columns">
+			<h3>ABOUT</h3>
+		</div>
+		<div class="large-9 columns">
+			<p>The Heretic Network is a group of fellow Heretics who kindly offered their time and expertise to help you on your own journey. It all started with <a href="http://theheretic.me/2013/12/08/the-heretic-network/">this post</a>. It's us paying it forward.</p>
+         <p><strong>Consider this your Heretic rolodex of awesomeness.</strong></p>
+			<p>Feel free to reach out to them. And please don't forget: These wonderful folks are doing this out of gratitude - please treat them like the messiah.</p>
+			<p>And <a href="mailto:hello@theheretic.me">email me</a> when something cool came out of a collaboration, when you want to offer your own expertise to fellow Heretics or when you just want to say Hi.</p>
+			<p>With deep admiration,<br>Pascal</p>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row" id="network">
+		<div class="large-3 columns">
+			<h3>THE GOODIES</h3>
+		</div>
+		<div class="large-9 columns">
+			<ul class="large-block-grid-2 list">
+			{% for goodie in page.goodies %}
+				<li>
+					<div class="panel">
+	  				<h5 class="name">{{ goodie.title }}</h5>
+	  				<hr />
+	  				<p>{{ goodie.text }}</p>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div> <!-- /generic -->

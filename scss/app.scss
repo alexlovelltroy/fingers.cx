@@ -125,15 +125,17 @@ a:hover.button { text-decoration: none; }
 	img { @include imageSize(464px, 324px); }
 }
 
-#headerPost { @include headerImg("../img/header-post.jpg", 400px); }
+#headerAbout { @include headerImg("../img/header-about.jpg", 600px); }
 
 #headerArchive {  @include headerImg("../img/header-archive.jpg", 400px); }
 
-#headerAbout { @include headerImg("../img/header-about.jpg", 600px); }
+#headerDisclaimer { @include headerImg("../img/header-disclaimer.jpg", 600px); }
+
+#headerGoodies { @include headerImg("../img/header-goodies.jpg", 600px); }
 
 #headerNetwork { @include headerImg("../img/header-network.jpg", 600px); }
 
-#headerDisclaimer { @include headerImg("../img/header-disclaimer.jpg", 600px); }
+#headerPost { @include headerImg("../img/header-post.jpg", 400px); }
 
 #pullout p {
 	font-size: emCalc(27px);
