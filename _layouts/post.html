@@ -1,5 +1,16 @@
 {% include header.html %}
 
+<!-- Initialize Facebook Comment Box -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- /Initialize Facebook Comment Box -->
+
 <div id="headerPost" class="hide-for-small">
 </div> <!-- /headerPost -->
 
@@ -14,7 +25,9 @@
 
 			<hr>
 
-			<!-- Disqus Comments -->
+			<div class="fb-comments" data-href="{{ page.url }}" data-width="635" data-colorscheme="light"></div> <!-- /fb-comments -->
+
+			<!-- Disqus Comments
 			<div id="disqus_thread"></div>
 			<script type="text/javascript">
 				var disqus_shortname = 'thehereticdotme';
@@ -26,7 +39,7 @@
 					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 				})();
 			</script>
-			<!-- /Disqus Comments -->
+			 /Disqus Comments -->
 		</div>
 	</div>
 </div> <!-- /post -->
