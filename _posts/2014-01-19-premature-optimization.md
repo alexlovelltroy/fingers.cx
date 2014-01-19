@@ -2,7 +2,7 @@
 layout: post
 tags: strategy
 featured: 
-date: 2014-01-19 13:46:00
+date: 2014-01-19 12:46:00
 title: Premature Optimization
 ---
 Last night I spent about three hours working on a logo for one of Jane's new projects. A good chunk of that time was devoted to getting the kerning of the logo type just right.
