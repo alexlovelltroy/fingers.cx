@@ -1,4 +1,4 @@
-TheHeretic
+LovellTroy.org
 ==========
 
-Website Repo for TheHeretic.me
+Website Repo for LovellTroy.org
