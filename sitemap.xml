@@ -1,0 +1,28 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://theheretic.me/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://theheretic.me/about/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://theheretic.me/disclaimer/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://theheretic.me/archive/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	{% for post in site.posts %}
+	<url>
+		<loc>{{ site.url }}{{ post.url }}</loc>
+		<lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+	</url>
+	{% endfor %} 
+</urlset>

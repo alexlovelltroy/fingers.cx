@@ -1,0 +1,62 @@
+---
+layout: default
+title: Archive
+---
+<div id="headerArchive" class="hide-for-small">
+</div> <!-- /headerArchive -->
+
+<div id="archive">
+	<div class="row">
+		<div class="large-3 columns">
+			<h3>ARCHIVE</h3>
+			<h5><i class="icon-tags"></i> Show all posts about:</h5>
+			<ul>
+				<li><a href="#archive" onclick="filterNone();"><span class="radius secondary label">All Posts</span></a></li>
+				<li><a href="#archive" onclick="filterFeature();"><span class="radius secondary label">Featured <i class="icon-star"></i></span></a></li>
+				<li><a href="#archive" onclick="filter('leadership');"><span class="radius secondary label">On Leadership</span></a></li>
+				<li><a href="#archive" onclick="filter('strategy');"><span class="radius secondary label">Strategy & Tactics</span></a></li>
+				<li><a href="#archive" onclick="filter('rainmaking');"><span class="radius secondary label">Rainmaking</span></a></li>
+				<li><a href="#archive" onclick="filter('funding');"><span class="radius secondary label">The Money</span></a></li>
+				<li><a href="#archive" onclick="filter('thoughts');"><span class="radius secondary label">Thoughts</span></a></li>
+				<li><a href="#archive" onclick="filter('other');"><span class="radius secondary label">Other</span></a></li>
+			</ul>
+		</div>
+		<div class="large-9 columns">
+			<div id="archive-list">
+				<ul class="archiveItems list">
+				{% for post in site.posts %}
+					<li><i class="icon-angle-right"></i> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> {% if post.featured.size > 0 %}<i class="icon-star"></i><span class="featured">featured</span>{% endif %} <small>({{ post.date | date_to_string}})</small><span class="category">{{ post.tags }}</span></li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- /post -->
+
+<!-- list.js -->
+<script src="{{ site.baseurl }}js/list.min.js"></script>
+<script type="text/javascript">
+var options = {
+	valueNames: [ 'category', 'featured' ],
+	page: 1000
+};
+var archiveList = new List('archive-list', options);
+
+function filter($tag) {
+	archiveList.filter(function(item) {
+		if (item.values().category == $tag) { return true; } else { return false; }
+	});
+};
+
+function filterFeature() {
+	archiveList.filter(function(item) {
+		if (item.values().featured == 'featured') { return true; } else { return false; }
+	});
+};
+
+function filterNone() {
+	archiveList.filter();
+	return false;
+};
+</script>
+<!-- /list.js -->

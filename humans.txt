@@ -1,0 +1,14 @@
+/* The Heretic was created and is maintained by Pascal Finette */
+/* finette.com */
+/* humanstxt.org */
+
+/* TEAM */
+  Your title: Pascal Finette
+  Site: finette.com
+  Twitter: pfinette
+  Location: Saratoga, CA, USA
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: ZURB Foundation 4, List.js, Font Awesome
+  Software: Sublime Text, Git

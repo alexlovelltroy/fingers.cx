@@ -1,0 +1,68 @@
+---
+layout: default
+title: An opinionated newsletter about startups and entrepreneurship
+---
+<div id="headerHome" class="hide-for-small">
+	<div class="row">
+		<div class="large-12 columns text-center">
+			<img src="img/header-tagline.png" alt="Opinionated Newsletter for Entrepreneurs">
+		</div>
+	</div>
+</div> <!-- /headerHome -->
+
+<div id="pullout">
+	<div class="row">
+		<div class="small-12 columns text-center">
+			{% for post in site.posts limit:1 %}
+			<p>Latest Post: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+			{% endfor %}
+		</div>
+	</div>
+</div> <!-- /pullout -->
+
+<div id="newsletter">
+	<div class="row">
+		<div class="large-6 columns">
+			<h3>THE HERETIC</h3>
+			<p>Welcome. The Heretic is a daily newsletter about entrepreneurship, the art of the start and doing the work by Pascal Finette. It's raw, unfiltered and opinionated. All straight to your inbox. You will like it.</p>
+		</div>
+		<div class="large-6 columns">
+			<h3>SUBSCRIBE</h3>
+			<!-- Begin MailChimp Signup Form -->
+			<div id="mc_embed_signup">
+				<form action="http://finette.us6.list-manage.com/subscribe/post?u=73ed86d918cf26bfbf6cc6c1d&amp;id=7eed73b8d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<p>
+						<span class="highlight"><strong>Be awesome:</strong></span> Subscribe now for your daily fix.<br>
+						No spam and 100% bullshit free; I swear.
+					</p>
+					<label>Enter your email address to subscribe:</label>
+					<div class="row collapse">
+						<div class="small-9 columns">
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+						</div>
+						<div class="small-3 columns">
+							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button prefix">
+						</div>
+					</div>
+				</form>
+			</div> <!-- /mc_embed_signup-->
+		</div>
+	</div>
+</div> <!-- /newsletter -->
+
+<div id="post">
+	<div class="row">
+		<div class="large-3 columns">
+			<h3>LATEST POST</h3>
+		</div>
+		<div class="large-9 columns">
+			{% for post in site.posts limit:1 %}
+			<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+			{{ post.content }}
+			<p class="text-right"><a href="{{ post.url }}/#disqus_thread" class="small button"><i class="icon-comment"></i>Leave a comment</a></p>
+			{% endfor %}
+			<hr>
+			<h4><i class="icon-chevron-right"></i> Discover more in the <a href="/archive/">archive</a>, <a href="#newsletter">subscribe</a> and <a href="https://www.facebook.com/groups/theheretic/">join us on Facebook</a>!</h4>
+		</div>
+	</div>
+</div> <!-- /post -->

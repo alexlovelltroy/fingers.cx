@@ -1,0 +1,34 @@
+{% include header.html %}
+
+<div id="headerPost" class="hide-for-small">
+</div> <!-- /headerPost -->
+
+<div id="post">
+	<div class="row">
+		<div class="large-4 columns">
+			<h3>{{ page.title }}</h3>
+			<a href="{{ site.baseurl }}archive/" class="small button"><i class="icon-folder-close"></i>Archive</a> <a href="http://twitter.com/share?url={{ site.url | escape }}{{ page.url | escape }}/&text=The Heretic: {{ page.title | escape }}" target="_blank" class="small button"><i class="icon-twitter"></i>Tweet</a>
+			</div>
+		<div class="large-8 columns">
+			{{ content }}
+
+			<hr>
+
+			<!-- Disqus Comments -->
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+				var disqus_shortname = 'thehereticdotme';
+				var disqus_identifier = '{{ page.url }}';
+
+				(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				})();
+			</script>
+			<!-- /Disqus Comments -->
+		</div>
+	</div>
+</div> <!-- /post -->
+
+{% include footer.html %}
