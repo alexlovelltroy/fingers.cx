@@ -1,5 +1,6 @@
 ---
 layout: post
+headerstyle: door
 tags: thoughts
 date: 2014-01-22
 title: Dream Big!

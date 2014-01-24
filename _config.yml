@@ -1,9 +1,9 @@
 encoding: UTF-8
-timezone: America/Los_Angeles
+timezone: UTC
 
-name: The Heretic
-description: An opinionated Newsletter by Pascal Finette
-url: http://theheretic.me
+name: LovellTroy.org
+description: Opinions on building stuff from Alex Lovell-Troy
+url: http://lovelltroy.org
 baseurl: /
 
 markdown: rdiscount

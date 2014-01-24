@@ -137,6 +137,22 @@ a:hover.button { text-decoration: none; }
 
 #headerPost { @include headerImg("../img/header-post.jpg", 400px); }
 
+#headeralps { @include headerImg("../img/header-alps.jpg", 600px);}
+#headerbench { @include headerImg("../img/header-bench.jpg", 600px);}
+#headerdoor { @include headerImg("../img/header-door.jpg", 600px);}
+#headereagle { @include headerImg("../img/header-eagle.jpg", 600px);}
+#headerflower { @include headerImg("../img/header-flower.jpg", 600px);}
+#headerhawk { @include headerImg("../img/header-hawk.jpg", 600px);}
+#headerhome { @include headerImg("../img/header-home.jpg", 600px);}
+#headerishtar { @include headerImg("../img/header-ishtar.jpg", 600px);}
+#headermidgets { @include headerImg("../img/header-midgets.jpg", 600px);}
+#headermountain { @include headerImg("../img/header-mountain.jpg", 600px);}
+#headernetwork { @include headerImg("../img/header-network.jpg", 600px);}
+#headerplates { @include headerImg("../img/header-plates.jpg", 600px);}
+#headerpresidencia { @include headerImg("../img/header-presidencia.jpg", 600px);}
+#headerstatue { @include headerImg("../img/header-statue.jpg", 600px);}
+#headerunicorn { @include headerImg("../img/header-unicorn.jpg", 600px);}
+
 #pullout p {
 	font-size: emCalc(27px);
 	color: #666;
@@ -213,7 +229,6 @@ a:hover.button { text-decoration: none; }
 
 #footer {
 	@media #{$small} { // Show footer logo only on large screens
-		background: url(../img/footer.gif) no-repeat right bottom;
 		background-size: contain;
 		background-color: $blue;
 	}
