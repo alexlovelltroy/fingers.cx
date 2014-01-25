@@ -15,7 +15,7 @@ layout: none
 				<title>{{ post.title | xml_escape }}</title>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<author>hello@theheretic.me (Pascal Finette)</author>
+				<author>hello@lovelltroy.org (Alex Lovell-Troy)</author>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 				<description>{{ post.content | xml_escape }}</description>
 			</item>
