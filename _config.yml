@@ -1,9 +1,9 @@
 encoding: UTF-8
 timezone: UTC
 
-name: LovellTroy.org
-description: Opinions on building stuff from Alex Lovell-Troy
-url: http://lovelltroy.org
+name: Fingers Crossed
+description: Alex Lovell-Troy is writing with his fingers crossed
+url: http://fingers.cx
 baseurl: /
 
 markdown: rdiscount
