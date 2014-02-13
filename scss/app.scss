@@ -152,6 +152,7 @@ a:hover.button { text-decoration: none; }
 #headerpresidencia { @include headerImg("../img/header-presidencia.jpg", 600px);}
 #headerstatue { @include headerImg("../img/header-statue.jpg", 600px);}
 #headerunicorn { @include headerImg("../img/header-unicorn.jpg", 600px);}
+#headeryoda { @include headerImg("../img/header-yoda.jpg", 600px);}
 
 #pullout p {
 	font-size: emCalc(27px);
