@@ -19,10 +19,11 @@ layout: post
 headerstyle: yoda
 tags: thoughts
 date: 2014-02-12
-title: There is no "Try" but you can experiment
+title: experimentation is not trying
 ---
-> Do.  Or do not. There is no "Try".
-> Yoda
+>Do.  Or do not. There is no try.
+>
+>Yoda
 
 Yoda's wisdom is excellent especially when you paraphrase it, "Trying looks the
 same as failing."
