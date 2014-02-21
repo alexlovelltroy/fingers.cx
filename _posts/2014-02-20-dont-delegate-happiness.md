@@ -19,12 +19,10 @@ headerstyle: flower
 # headerstyle: yoda
 tags: thoughts
 date: 2014-02-20
-title: Don't delegate your happiness
+title: You can't delegate your happiness
 ---
 > When surrounded by unhappy people, it's hard to remain focused on the things that thrill you in life.  Don't let it stop you.
 
-In an organization of any reasonable size, there's going to be some managers that inspire and some that don't.  When you're dealing with a dud, that doesn't give you an excuse to be unhappy.  
+Happiness within organizations works both ways. Managers aren't responsible for the happiness of their teams.  But, unhappy people are less productive and if they continue to be unhappy, they're likely to vote with their feet.  At the same time, when dealing with a dud of a manager, workers don't get to blame them.  It's the worker, not the manager that approaches the day with dread.  It's the worker, not the manager who brings stress home at night.
 
-Tomorrow is a new day that you can approach with joy and hope.  There are only two ways out of a bad  situation: find your own joy, or find the door.
-
-It's good to remember that as a manager too.  You may not think you're a dud. And, you may not think you're a dud.  But if your team is voting with their feet, you need to figure out how to turn it around.  Your team members are responsible for their own happiness. Bad management practices mean that they'll find it elsewhere.
+When you're unhappy, deal with it.  Face the situation and find a path to happiness.  As a manager, you can't walk that path for your team members, but it is your responsibility to clear paths for them.
