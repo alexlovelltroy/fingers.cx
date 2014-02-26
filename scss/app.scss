@@ -137,6 +137,9 @@ a:hover.button { text-decoration: none; }
 
 #headerPost { @include headerImg("../img/header-post.jpg", 400px); }
 
+// http://www.hdwpapers.com/cute_kittens_of_main_coon_cat_wallpaper-wallpapers.html
+#headerInspiration { @include headerImg("../img/header-inspiration.jpg", 600px);}
+
 #headeralps { @include headerImg("../img/header-alps.jpg", 600px);}
 #headerbench { @include headerImg("../img/header-bench.jpg", 600px);}
 #headerdoor { @include headerImg("../img/header-door.jpg", 600px);}
