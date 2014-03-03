@@ -5,7 +5,7 @@ layout: post
 # headerstyle: bench
 # headerstyle: door
 # headerstyle: eagle
-headerstyle: flower
+# headerstyle: flower
 # headerstyle: hawk
 # headerstyle: home
 # headerstyle: ishtar
@@ -17,6 +17,7 @@ headerstyle: flower
 # headerstyle: statue
 # headerstyle: unicorn
 # headerstyle: yoda
+headerstyle: martenitsa
 tags: thoughts
 date: 2014-03-01
 title: Spring is coming and bringing hope
