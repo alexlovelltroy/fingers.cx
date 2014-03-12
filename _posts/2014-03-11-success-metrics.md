@@ -20,6 +20,7 @@ headerstyle: alps
 # headerstyle: martenitsa
 tags: thoughts
 date: 2014-03-11
+author: Alex
 title: Know your own Success Metrics
 ---
 ## What will it feel like to succeed?

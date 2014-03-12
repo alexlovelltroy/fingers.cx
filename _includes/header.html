@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8" />
-	<title>Alex Lovell-Troy - {{ page.title }}</title>
+    <meta charset="utf-8" />
+    <title>Alex Lovell-Troy - {{ page.title }}</title>
 
-	<meta name="viewport" content="width=device-width" />
-	<meta name="description" content="Alex Lovell-Troy writes with his fingers crossed about entrepreneurship and programming" />
-	<meta name="author" content="Alex Lovell-Troy" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="{{ page.description | default : "Alex Lovell-Troy writes with his fingers crossed about entrepreneurship and programming" }}" />
+    <meta name="author" content="Alex Lovell-Troy" />
+    <meta name="keywords" content="Entrepreneurship, DevOps, Programming, Mentor" />
 
-	<link rel="stylesheet" href="{{ site.baseurl }}css/app.css" />
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon.ico" />
-	<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/fingerscx" title="Alex Lovell-Troy" />
+    <link rel="stylesheet" href="{{ site.baseurl }}css/app.css" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/fingerscx" title="Alex Lovell-Troy" />
 
-	<!-- OpenGraph Tags -->
-	<meta property="og:title" content="Fingers.cx - {{ page.title }}" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://lovelltroy.org/img/opengraph-logo.png" />
-	<meta property="og:image:type" content="image/png" />
-	<meta property="og:image:width" content="300" />
-	<meta property="og:image:height" content="300" />
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
-	<meta property="og:description" content="Fingers.cx: {{ page.title }}" />
-	<meta property="og:site_name" content="fingers.cx" />
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Fingers.cx - {{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://lovelltroy.org/img/opengraph-logo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
+    <meta property="og:description" content="Fingers.cx: {{ page.title }}" />
+    <meta property="og:site_name" content="fingers.cx" />
 
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-22793554-2']);
-	_gaq.push(['_setDomainName', 'fingers.cx']);
-	_gaq.push(['_trackPageview']);
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-	</script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22793554-2']);
+    _gaq.push(['_setDomainName', 'fingers.cx']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
 </head>
 <body>
 
 <div id="masthead">
-	<div class="row">
-		<div class="large-4 columns hide-for-small">
-			<a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}img/masthead-logo.png" alt="Masthead Logo"></a>
-		</div>
-		<div class="large-8 small-12 columns text-right">
+    <div class="row">
+        <div class="large-4 columns hide-for-small">
+            <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}img/masthead-logo.png" alt="Masthead Logo"></a>
+        </div>
+        <div class="large-8 small-12 columns text-right">
             <h6><span class="mobile-only"><a href="{{ site.baseurl }}">home</a> / </span><a href="{{ site.baseurl }}#newsletter" class="highlight">subscribe</a> / <a href="{{ site.baseurl }}archive/">archive</a> / <a href="{{ site.baseurl }}about/">manifesto</a> / <a href="{{ site.baseurl }}inspiration/">inspiration</a></h6>
-		</div>
-	</div>
+        </div>
+    </div>
 </div> <!-- /masthead -->
