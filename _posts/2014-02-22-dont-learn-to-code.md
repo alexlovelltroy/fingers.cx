@@ -34,4 +34,4 @@ So, here's the advice that I've given at least a dozen times.
 >
 > -alex
 
-Not convinced?  [You might be a builder](/2015/02/23/learn-to-code/)
+Not convinced?  [You might be a builder](/2014/02/23/learn-to-code/)
