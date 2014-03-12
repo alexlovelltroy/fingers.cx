@@ -14,7 +14,7 @@ layout: post
 # headerstyle: network
 # headerstyle: plates
 # headerstyle: presidencia
-# headerstyle: statue
+# headerstyle: statue∏
 # headerstyle: unicorn
 # headerstyle: yoda
 headerstyle: martenitsa
