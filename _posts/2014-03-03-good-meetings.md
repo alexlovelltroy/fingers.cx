@@ -18,7 +18,7 @@ headerstyle: plates
 # headerstyle: unicorn
 # headerstyle: yoda
 # headerstyle: martenitsa
-tags: thoughts
+tags: meetings
 date: 2014-03-04
 title: Be very good at meetings
 ---
