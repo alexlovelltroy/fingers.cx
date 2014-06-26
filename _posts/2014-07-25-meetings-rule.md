@@ -24,7 +24,7 @@ title: More help with meetings
 ---
 ## Tips to make meetings awesome
 
-After my last post about [meetings]({% post_url 2014-03-03-good-meetings %}) I started talking to small teams about how to get started with a new culture of meetings.  I'd like to sum up a few things that have helped them.
+After my last post about [meetings](http://fingers.cx/2014/03/04/good-meetings/) I started talking to small teams about how to get started with a new culture of meetings.  I'd like to sum up a few things that have helped them.
 
 ### 1. Change the routine
 Get up out of your chair!  For a change of pace, have your next status meeting in the break room, or your next strategy session in the boss's office.  To change culture, you have to shake things up in a way that can't be ignored.  Start with a dance party?  Yoga?  Snacks? Guitar Hero?
