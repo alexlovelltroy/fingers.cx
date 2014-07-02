@@ -19,7 +19,7 @@ headerstyle: plates
 # headerstyle: yoda
 # headerstyle: martenitsa
 tags: meetings
-date: 2014-07-25
+date: 2014-06-25
 title: More help with meetings
 ---
 ## Tips to make meetings awesome
