@@ -42,5 +42,5 @@ In my personal and professional life, I make a lot of introductions that lead to
 
 I'm a programmer, so I'm excited to be building something that does just this, and more. [Intros](http://intros.to) helps connectors simply track the intros they make, increase their impact - and, in doing so, their happiness.
 
-![Intros.to Dashboard Image ](/static/images/intros_dashboard.jpg "My Dashboard")
+![Intros.to Dashboard Image ](/img/intros_dashboard.jpg "My Dashboard")
 
