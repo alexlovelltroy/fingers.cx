@@ -164,4 +164,3 @@ Forwarded e-mails are not well defined.  Here's what the various RFCs have to sa
 >The "Resent-Message-ID:" field provides a unique identifier for the
 >resent message.
 
-By Alex Lovell-Troy

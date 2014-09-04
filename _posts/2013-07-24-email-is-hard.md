@@ -37,7 +37,7 @@ which lets you deal with email as python objects rather than the ugly text
 files they really are.  This is really based on the [python email module](http://docs.python.org/2/library/email) which handles MIME recursion
 and headers.  Did you know that email messages can nest infinitely?  For sending email in django, the code is actually very simple:
 
-    ```python
+    <pre>
     from django.core.mail import EmailMultiAlternatives
 
     subject, from_email, to = 'hello', 'from@example.com', 'to@example.com'
@@ -46,7 +46,7 @@ and headers.  Did you know that email messages can nest infinitely?  For sending
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
     msg.attach_alternative(html_content, "text/html")
     msg.send()
-    ```
+    </pre>
 
 This is readable and sensible, but storing the content in strings in the code
 isn't a good idea.  Also, it's going to be tough to personalize this for each
@@ -55,7 +55,7 @@ the web part of our system to solve a similar problem.  But wait, those assume a
 
 Let's try anyway.  I'm sure we can just store the e-mail templates as models and make this easy, right?
 
-    ```python
+    <pre>
     from django.conf import settings
     from django.template import Template, Context
     from django.core.mail import EmailMultiAlternatives
@@ -86,7 +86,7 @@ Let's try anyway.  I'm sure we can just store the e-mail templates as models and
                     "text/html"
                 )
             msg.send()
-    ```
+    </pre>
 
 That's more moving parts to maintain, and we're still not even pulling templates from the filesystem or logging the mail success/fail send rate.  We haven't even addressed delaying e-mail sending or using a different [backend](https://docs.djangoproject.com/en/dev/topics/email/#email-backends).  I use [django-ses](https://github.com/hmarr/django-ses).
 
@@ -105,4 +105,3 @@ here's a first draft of making what I'm working on public
 [Class Based Emails for Django](https://gist.github.com/alexlovelltroy/6074043)
 <script src="https://gist.github.com/alexlovelltroy/6074043.js"></script>
 
-By Alex Lovell-Troy
