@@ -19,7 +19,7 @@ layout: post
 # headerstyle: yoda
 # headerstyle: martenitsa
 # headerstyle: cloud
-headerstyle: container
+headerstyle: containers
 title: very small linux containers
 date: 2014-09-05
 tags: programming, devops, containers, docker
