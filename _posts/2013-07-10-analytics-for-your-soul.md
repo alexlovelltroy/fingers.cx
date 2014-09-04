@@ -20,12 +20,11 @@ headerstyle: presidencia
 # headerstyle: martenitsa
 # headerstyle: cloud
 # headerstyle: container
-Title: Analytics for your soul
-Subtitle: How do you measure the impact you make within your community, smiles, hugs, birthday cards? Meaningful Human Connections?
-Date: 2013-07-10
-Category: Introductions
-Tags: intros, connections
-Slug: soul-analytics
+title: Analytics for your soul
+subtitle: How do you measure the impact you make within your community, smiles, hugs, birthday cards? Meaningful Human Connections?
+date: 2013-07-10
+category: Introductions
+tags: intros, connections
 summary: I'm building intros.to for quantifiable data on how effective I am at helping those around me because social networking can be alienating.
 ---
 
