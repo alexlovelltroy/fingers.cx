@@ -12,7 +12,7 @@ layout: post
 # headerstyle: midgets
 # headerstyle: mountain
 # headerstyle: network
- headerstyle: plates
+headerstyle: plates
 # headerstyle: presidencia
 # headerstyle: statue
 # headerstyle: unicorn
@@ -29,7 +29,7 @@ author: Alex Lovell-Troy
 summary: Sending email well in django can be problematic, but it doesn't have to be.
 ---
 
-### TLDR;
+# TLDR;
 > Email in django isn't as easy as it should be.  I use [SES](https://github.com/hmarr/django-ses) with Celery as a backend and handle email content with [Class Based Emails](https://gist.github.com/alexlovelltroy/6074043) and thought I would share it.
 
 In django, most of the [complication of email](/email-is-complicated.html) is hidden by the email module in core: [djang.core.email.EmailMessage](https://docs.djangoproject.com/en/dev/topics/email/#django.core.mail.EmailMessage)
