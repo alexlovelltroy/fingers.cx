@@ -157,6 +157,9 @@ a:hover.button { text-decoration: none; }
 #headerunicorn { @include headerImg("../img/header-unicorn.jpg", 600px);}
 #headeryoda { @include headerImg("../img/header-yoda.jpg", 600px);}
 #headermartenitsa { @include headerImg("../img/header-martenitsa.jpg", 600px);}
+#headercloud { @include headerImg("../img/header-cloud-computing.jpg", 600px);}
+#headercontainer { @include headerImg("../img/header-containers.jpg", 600px);}
+
 
 #pullout p {
 	font-size: emCalc(27px);
