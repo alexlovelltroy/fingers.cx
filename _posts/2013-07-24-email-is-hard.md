@@ -25,7 +25,7 @@ Date: 2013-07-24
 Category: programming
 Tags: programming, python, django, email
 Slug: email-is-hard
-Author: Alex
+author: Alex Lovell-Troy
 summary: Sending email well in django can be problematic, but it doesn't have to be.
 ---
 

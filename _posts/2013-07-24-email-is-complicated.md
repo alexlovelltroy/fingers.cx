@@ -25,7 +25,7 @@ Date: 2013-07-24
 Category: programming
 Tags: programming, email
 Slug: email-is-complicated
-Author: Alex
+author: Alex Lovell-Troy
 summary: Email standards date back to 1982 in RFC form and can be a challenge to understand or follow as a software developer especially when dealing with international e-mail and forwards.  Here are the relevant standards.
 ---
 

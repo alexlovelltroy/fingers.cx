@@ -25,6 +25,7 @@ subtitle: How do you measure the impact you make within your community, smiles, 
 date: 2013-07-10
 category: Introductions
 tags: intros, connections
+author: Alex Lovell-Troy
 summary: I'm building intros.to for quantifiable data on how effective I am at helping those around me because social networking can be alienating.
 ---
 

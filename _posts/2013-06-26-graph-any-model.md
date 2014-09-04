@@ -24,7 +24,7 @@ title: Graph any django model
 date: 2013-06-26
 category: programming
 tags: programming, python, django, metrics
-author: Alex
+author: Alex Lovell-Troy
 summary: Using [_flotcharts_](http://www.flotcharts.org) and a simple gist I can graph all my django models in a DRY way.  You can too!  ![An example graph](/static/images/UserGraph.png)
 ---
 

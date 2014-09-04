@@ -24,7 +24,7 @@ title: Using celery with Amazon SQS
 date: 2013-07-27
 category: programming
 tags: programming, python, django, ops, SQS
-Author: Alex
+author: Alex Lovell-Troy
 Summary: The documentation for using SQS with celery isn't great.  This post should help.
 ---
 

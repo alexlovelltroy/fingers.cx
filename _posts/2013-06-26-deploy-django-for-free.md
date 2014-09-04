@@ -25,7 +25,7 @@ date: 2013-06-26
 category: programming
 tags: programming, python, django, ops
 slug: deploy-django-for-free
-author: Alex
+author: Alex Lovell-Troy
 summary: Staying within the free tier on AWS for django deployment
 ---
 

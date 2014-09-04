@@ -25,7 +25,7 @@ subtitle: How learning new languages taught me to think differently
 Date: 2013-08-05
 category: learning
 tags: bulgarian, erlang
-Author: Alex
+author: Alex Lovell-Troy
 summary: With both world languages and programming languages, learning new ones teaches you more than syntax
 ---
 
