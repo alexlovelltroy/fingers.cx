@@ -49,32 +49,39 @@ Containerization relies on the underlying kernel to keep some things separate, b
 
 ## A little history
 
-Solaris had [Zones](https://en.wikipedia.org/wiki/Solaris_Containers) in 2004. FreeBSD had [Jails](https://wiki.freebsd.org/Jails) from version 4.0 which was released in 2000.  Linux went the route of full emulation and did some cool stuff with [QEMU](http://wiki.qemu.org/Main_Page), [KVM](http://www.linux-kvm.org/page/Main_Page), and the always mysterious [XEN](http://wiki.xenproject.org/wiki/Xen_Overview#What_is_the_Xen_Project_Hypervisor.3F) which isn't really Linux, but often used for Linux virtualization.
+Solaris had [Zones](https://en.wikipedia.org/wiki/Solaris_Containers) in 2004. FreeBSD had [Jails](https://wiki.freebsd.org/Jails) from version 4.0 which was released in 2000.  Linux has had [lxc](https://linuxcontainers.org/) since at least 2006.
 
+The path of virtualization has led us to AWS and fully scalable cloud computing.  Our tools for managing many computers came in very handy for that.
 
+The path of containerization is new and exciting.  We're still learning how to
+build good tools and good containers.
+
+An important step in that process is to stop thinking about containers the same
+way that we think about virtual hosts.  A container doesn't need a logging
+infrastructure or init or shells.  Those can all be shared from another
+container on the same host.  So, what does a container need?  <b>Just your
+code</b>.  How do we shrink a deployment so that it has nothing but the code we
+want to run?
 
 # You can build small images
 
 ## Start from small base images
-* [scratch](https://registry.hub.docker.com/_/scratch/)
+* like this one - [scratch](https://registry.hub.docker.com/_/scratch/)
+* improve it - [like this](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
 
-## Build your own very small image
-
-### from scratch
-* if you start with a scratch base image, you can make an image as small as your statically linked binary - [link](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
-
-### buildroot [link](http://buildroot.uclibc.org/)
+## build your own with [buildroot](http://buildroot.uclibc.org/)
 Buildroot is an awesome cross-compilation toolchain designed for embedded systems.  But, it can be great for containers as well.  It eschews package management by cross compiling everything and then squashing it into one tarball.  @jpetazzo has even written a [guide](http://blog.docker.com/2013/06/create-light-weight-docker-containers-buildroot/) for building a functional postgres image that weighs in at 16 Megabytes.  
 
 Pretty slick!
 
-### mkimage
+## Make a small image with debootstrap
 In the [contrib](https://github.com/docker/docker/tree/master/contrib) directory of the main docker github repository is a script called mkimage which does what it says on the tin.
-```sudo ./mkimage.sh -t alovelltroy/debian debootstrap --include=ceph,quagga --variant=minbase jessie ```
+
+<pre>sudo ./mkimage.sh -t alovelltroy/debian debootstrap --include=ceph,quagga --variant=minbase jessie</pre>
 
 ## Build big and then sqaush it
 * [docker-squash](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/)
 
 # Kernel Namespaces
-* [systemd-nspawn](http://rich0gentoo.wordpress.com/2014/07/14/quick-systemd-nspawn-guide/)
+If all you want to do is isolate an executable, [systemd-nspawn](http://rich0gentoo.wordpress.com/2014/07/14/quick-systemd-nspawn-guide/) is awesome.
 
